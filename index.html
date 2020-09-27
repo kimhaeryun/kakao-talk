@@ -6,39 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/27b2ad561b.js" crossorigin="anonymous"></script>
     <title>haeryun_kakaotalk</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <div id="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fas fa-wifi"></i>
+    <div class="box">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column js-clock">
+                <span>00:00</span>
+                <!-- clock -> To Do: Vainilla_JS -->
+            </div>
+            <div class="status-bar__column js-battery">
+                <span>51%</span>
+                <i class="fas fa-battery-full fa-lg"></i>
+                <i class="fas fa-bolt"></i>
+                <!-- To Do: Vainilla_JS -->
+            </div>
         </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
-            <!-- clock -> To Do: Vainilla_JS -->
-        </div>
-        <div class="status-bar__column">
-            <span>51%</span>
-            <i class="fas fa-battery-full"></i>
-            <i class="fas fa-bolt"></i>
-            <!-- To Do: Vainilla_JS -->
-        </div>
-    </div>
 
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Kakao Talk</h1>
-        <p class="welcome-header__text">Welcome to KaKao Talk >_< </br>please log in with your email or phone number</p>
-    </header>
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">Kakao Talk</h1>
+            <p class="welcome-header__text">Welcome to KaKao Talk >_< </br>please log in with your email or phone number
+            </p>
+        </header>
 
-    <form id="login-form">
-        <input type="text" placeholder="Email or Phone number" />
-        <input type="password" placeholder="Password" />
-        <input type="submit" value="Log In" />
-        <input type="submit" value="Sign Up" />
-        <a href="#" target="_blank">Find Kakao Account or Password</a>
-    </form>
-
+        <form id="login-form">
+            <input type="text" placeholder="Email or Phone number" />
+            <input type="password" placeholder="Password" />
+            <input type="submit" value="Log In" />
+            <input type="submit" value="Sign Up" />
+            <a href="#" target="_blank">Find Kakao Account or Password</a>
+        </form>
+        </box>
+        <script src="./js/clock.js"></script>
+        <script src="./js/battery.js"></script>
 </body>
 
 </html>
