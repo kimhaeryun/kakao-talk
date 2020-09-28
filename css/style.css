@@ -3,6 +3,7 @@
 
 /*components*/
 @import "./components/status-bar.css";
+@import "./components/nav-bar.css";
 
 /*components*/
 
@@ -27,3 +28,4 @@ body{
 	height: 700px;
     width: 350px;
 }
+
