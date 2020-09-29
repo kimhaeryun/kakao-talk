@@ -6,11 +6,13 @@
 @import "./components/nav-bar.css";
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
+@import "./components/badge.css";
 /*components*/
 
 /*screens*/
 @import "screens/login.css";
 @import "./screens/friends.css";
+@import "./screens/find.css";
 
 /*screens*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
@@ -32,3 +34,6 @@ body{
     width: 400px;
 }
 
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}

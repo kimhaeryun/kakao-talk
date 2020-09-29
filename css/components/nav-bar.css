@@ -15,16 +15,6 @@
 }
 
 .nav__badge{
-    background-color: tomato;
-    font-size: 11px;
-    width: 30px;
-    height: 20px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
     position: absolute;
     left: 107px;
     bottom: 10px;

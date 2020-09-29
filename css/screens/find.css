@@ -1,0 +1,19 @@
+.find-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.find-texts__text--main {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.fa-hashtag {
+    font-size: 13px;
+    font-weight: 600;
+    position: absolute;
+    left: 116px;
+}
