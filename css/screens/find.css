@@ -23,6 +23,7 @@
 .find-component{
     margin-top: 5px;
     padding: 0px 15px;
+    border-bottom: 12px solid rgba(0, 0, 0, 0.05);
 }
 
 .find-component,
@@ -48,5 +49,37 @@
 }
 
 .find-component__subtitle {
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(204, 153, 58);
+}
 
+.fa-chevron-right--find__header {
+    opacity: 0.25;
+    font-weight: 600;
+}
+
+.find-component__subtitle,
+.fa-chevron-right--find__header {
+    padding-bottom: 10px;
+}
+
+.main-find-component__column--text {
+    display: block;
+    padding-bottom: 15px;
+    padding: var(--find-component);
+}
+
+.main-find-component__column--text span {
+    font-weight: 600;
+}
+
+.main-find-component__column--text ul{
+    padding: 10px 0px;
+}
+
+.main-find-component__column--text p{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
 }

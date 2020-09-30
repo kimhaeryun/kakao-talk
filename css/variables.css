@@ -1,9 +1,14 @@
 :root {
     --yellow: #fae100;
     --horizontal-space: 25px;
+    --find-component: 15px;
     --main-border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .friends-screen {
     padding: 0px var(--horizontal-space);
+}
+
+.main-find__component {
+    padding: 0px var(--find-component);
 }
