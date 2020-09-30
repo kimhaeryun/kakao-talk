@@ -68,6 +68,7 @@
 .main-find-component__column--text {
     display: block;
     padding-bottom: 10px;
+    padding-bottom: 15px;
     padding: var(--find-component);
 }
 
