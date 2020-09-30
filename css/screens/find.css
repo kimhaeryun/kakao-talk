@@ -5,15 +5,48 @@
     font-size: 20px;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.2);
+    border-bottom: var(--main-border);
+    padding-bottom: 22px;
 }
 
 .find-texts__text--main {
     color: rgba(0, 0, 0, 0.9);
 }
 
-.fa-hashtag {
+.fa-hashtag__badge {
     font-size: 13px;
     font-weight: 600;
     position: absolute;
-    left: 116px;
+    left: 113px;
+}
+
+.find-component{
+    margin-top: 5px;
+    padding: 0px 15px;
+}
+
+.find-component,
+.find-component__column:first-child{
+    display: flex;
+    align-items: center;
+}
+
+.find-component__avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.find-component__text {
+    margin-top: 5px;
+}
+
+.find-component__title {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.find-component__subtitle {
+
 }
