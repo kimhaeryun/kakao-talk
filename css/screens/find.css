@@ -173,3 +173,41 @@
     background-color: #F34B60;
     border-color: #F34B60;
 }
+
+.open-post__heart-count {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute ;
+    bottom: 10px;
+    right: 30px;
+    font-size: 14px;
+}
+
+.open-post__heart-count--one {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute ;
+    bottom: 10px;
+    left: 35%;
+    font-size: 14px;
+}
+
+.open-post__heart-count--one span {
+    margin-left: 5px;
+}
+
+.open-post__heart-count span {
+    margin-left: 5px;
+}
+
+.main-find-component__column--img {
+    position: relative;
+}
