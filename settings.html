@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/27b2ad561b.js" crossorigin="anonymous"></script>
+    <title>settings - kakaotalk</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/screens/more.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column js-clock">
+                <span>00:00</span>
+                <!-- clock -> To Do: Vainilla_JS -->
+            </div>
+            <div class="status-bar__column js-battery">
+                <span>51%</span>
+                <i class="fas fa-battery-full fa-lg"></i>
+                <i class="fas fa-bolt"></i>
+                <!-- To Do: Vainilla_JS -->
+            </div>
+        </div>
+
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <i class="fas fa-angle-left fa-2x"></i>
+            </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">Settings</h1>
+            </div>
+            <div class="alt-header__column">
+                <i class="fas fa-search fa-lg"></i>
+            </div>
+        </header>
+
+        <main class="main-screen">
+            <ul class="settings-list">
+                <li class="settings__setting">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>공지사항</span>
+                </li>
+                <li class="settings__setting">
+                    <i class="fas fa-flask"></i>
+                    <span>실험실</span>
+                </li>
+                <li class="settings__setting">
+                    <i class="fas fa-info-circle"></i>
+                    <span>버전정보</span>
+                    <p>최신 버전</p>
+                </li>
+            </ul>
+        </main>
+
+        <!-- nav>ul>li*4>a 유용한 단축키-->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a class="nav__link" href="./friends.html">
+                        <i class="far fa-user fa-lg"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="./chat.html">
+                        <span class="nav__badge badge">+999</span>
+                        <i class="far fa-comment fa-lg"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="./find.html">
+                        <i class="fas fa-hashtag fa-lg"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="./more.html">
+                        <i class="fas fa-ellipsis-h fa-lg"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="./js/clock.js"></script>
+    <script src="./js/battery.js"></script>
+</body>
+
+</html>

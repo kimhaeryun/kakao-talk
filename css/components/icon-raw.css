@@ -1,0 +1,21 @@
+.more-component {
+    display: flex;
+    margin: 10px 25px;
+    cursor: pointer;
+  }
+  
+  .more-component__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 21px;
+  }
+  
+  .more-component i {
+    font-size: 35px;
+  }
+  
+  .more-component span {
+    margin-top: 15px;
+  }
