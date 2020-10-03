@@ -53,7 +53,7 @@
 .more-display-link__column--right {
     margin-left: 35%;
     padding: 5px 25px;
-    border-radius: 15px;
+    border-radius: 13px;
     background-color: #ffffff;
 }
 
@@ -90,4 +90,8 @@
     color: #ffffff;
     background-color: #fae100;
     border-color: rgba(0, 0, 0, 0.1);
+}
+
+.cog-yellow {
+    color: #fae100;
 }

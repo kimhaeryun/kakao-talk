@@ -7,6 +7,8 @@
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
 @import "./components/badge.css";
+@import "./components/icon-raw.css";
+@import "./components/alt-screen-header.css";
 /*components*/
 
 /*screens*/
@@ -15,6 +17,8 @@
 @import "./screens/find.css";
 @import "./screens/more.css";
 @import "./screens/more.css";
+@import "./screens/settings.css";
+
 /*screens*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
