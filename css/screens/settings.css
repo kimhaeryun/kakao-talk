@@ -1,13 +1,37 @@
 .settings__setting {
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 0;
     font-size: 15px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.settings__setting:hover {
+    border-color: #fae100;
+}
+
+.setting__setting--border-sub {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0);
+}
+
+.setting__setting--border-sub:hover {
+    border-color: #fae100;
+}
+
+.settings__setting,
+.setting__setting--border-sub {
+    transition: border-color 0.3s ease-in-out;
+}
+
+.setting__setting--border{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .settings__setting i {
     margin-right: 10px;
     font-size: 18px;
     opacity: 0.6;
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.5;
 }
