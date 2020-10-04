@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/27b2ad561b.js" crossorigin="anonymous"></script>
-    <title>Chat - kakaotalk</title>
+    <title>chat - kakaotalk</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/screens/more.css">
 </head>
 
 <body>
-    <div class="box">
+    <div class="box chat-box">
         <div class="status-bar">
             <div class="status-bar__column">
                 <span>No Service</span>
@@ -28,59 +29,42 @@
             </div>
         </div>
 
-        <header class="screen-header">
-            <h1 class="screen-header__title">Chats</h1>
-            <div class="screen-header__icons">
-                <span><i class="fas fa-search fa-lg"></i></span>
-                <span><i class="fas fa-comment-medical fa-lg"></i></span>
-                <span><i class="fas fa-music fa-lg"></i></span>
-                <span><i class="fas fa-cog fa-lg"></i></span>
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="./chats.html">
+                    <i class="fas fa-arrow-left fa-2x"></i>
+                </a>
+            </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">김해륜</h1>
+            </div>
+            <div class="alt-header__column">
+                <span><i class="fas fa-search fa-lg search-margin"></i></span>
+                <span><i class="fas fa-bars fa-lg"></i></span>
             </div>
         </header>
 
-        <main class="main-screen">
-            <!-- 유저 채널에 쓰임 *자주 복사할 것 -->
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img src="./img/avatar.jpg" class="user-component__avatar user-component__avatar" />
-                    <div class="user-component__text">
-                        <h4 class="user-component__title">haeryun</h4>
-                        <h6 class="user-component__subtitle">this text test</h6>
+        <main class="main-screen main-chat">
+            <div class="chat__timestamp">
+                2020년 10월 4일 일요일
+            </div>
+
+            <div class="message-raw">
+                <img src="">
+                <div class="message-row__content">
+                    <span class="message__author">
+                        테스트1번
+                    </span>
+                    <div class="message__info">
+                        <span class="message__bubble">안뇽</span>
+                        <span class="message__time">21:29</span>
                     </div>
                 </div>
-                <div class="user-component__column">
-                    <span class="user-component__time">21:22</span>
-                    <div class="badge">+239</div>
-                </div>
             </div>
+
         </main>
-        <!-- nav>ul>li*4>a 유용한 단축키-->
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__btn">
-                    <a class="nav__link" href="./friends.html">
-                        <i class="far fa-user fa-lg"></i>
-                    </a>
-                </li>
-                <li class="nav__btn">
-                    <a class="nav__link" href="./chat.html">
-                        <span class="nav__badge badge">+999</span>
-                        <i class="fas fa-comment fa-lg"></i>
-                    </a>
-                </li>
-                <li class="nav__btn">
-                    <a class="nav__link" href="find.html">
-                        <i class="fas fa-hashtag fa-lg"></i>
-                    </a>
-                </li>
-                <li class="nav__btn">
-                    <a class="nav__link" href="more.html">
-                        <i class="fas fa-ellipsis-h fa-lg"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
     </div>
+
     <script src="./js/clock.js"></script>
     <script src="./js/battery.js"></script>
 </body>
