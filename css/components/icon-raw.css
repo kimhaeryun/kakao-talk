@@ -1,21 +1,19 @@
-.more-component {
-    display: flex;
-    margin: 10px 25px;
-    cursor: pointer;
-  }
-  
-  .more-component__column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 25px 21px;
-  }
-  
-  .more-component i {
-    font-size: 35px;
-  }
-  
-  .more-component span {
-    margin-top: 15px;
-  }
+.icon-row {
+  justify-content: space-between;
+  display: inline-block;
+  display: flex;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon i {
+  font-size: 35px;
+}
+
+.icon-row__icon span {
+  margin-top: 18px;
+}
