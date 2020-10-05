@@ -10,6 +10,7 @@
 
 #friends-display-link i{
     color: rgba(0, 0, 0, 0.3);
+    margin-right: 5px;
 }
 
 .friends-screen__channel {
@@ -19,8 +20,35 @@
 }
 
 .friends-screen__channel-header {
+    font-size: 14px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     color: rgba(0, 0, 0, 0.5);
+}
+
+#splash-screen{
+    background-color: var(--yellow);
+    position: absolute;
+    height: 110vh;
+    width: 110vw;
+    top: 0;
+    display: flex;
+    animation: closeSplashScreen 0.4s ease-in-out forwards;
+    animation-delay: 0.7s;
+}
+
+#splash-screen i {
+    font-size: 100px;
+    margin: 150px;
+}
+
+@keyframes closeSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
 }

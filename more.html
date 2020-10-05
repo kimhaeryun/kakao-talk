@@ -30,72 +30,68 @@
         </div>
 
         <header class="screen-header">
-            <h1 class="screen-header__title">more</h1>
+            <h1 class="screen-header__title">더보기</h1>
             <div class="screen-header__icons">
-                <span><i class="fas fa-search fa-lg"></i></span>
-                <span><i class="fas fa-comment-medical fa-lg"></i></span>
-                <span><i class="fas fa-music fa-lg"></i></span>
-                <span>
-                    <a href="settings.html">
-                        <i class="fas fa-cog fa-lg cog-yellow"></i>
-                    </a>
-                </span>
+              <span><i class="fas fa-search fa-lg"></i></span>
+              <span><i class="fas fa-music fa-lg"></i></span>
+              <span
+                ><a href="settings.html"><i class="fas fa-cog fa-lg cog-yellow"></i></a
+              ></span>
             </div>
-        </header>
-
-        <main class="main-screen">
-            <!-- 유저 채널에 쓰임 *자주 복사할 것 -->
+          </header>
+      
+          <main class="main-screen more-screen">
             <div class="user-component">
-                <div class="user-component__column">
-                    <img src="./img/avatar.jpg" class="user-component__avatar user-component__avatar" />
-                    <div class="user-component__text">
-                        <h4 class="user-component__title">haeryun</h4>
-                        <h6 class="user-component__subtitle">haeryun@kakao.com</h6>
+              <div class="user-component__column">
+                <img
+                  src="./img/avatar.jpg"
+                  class="user-component__avatar user-component__avatar--sm"
+                />
+                <div class="user-component__text">
+                  <h4 class="user-component__title">김해륜</h4>
+                  <h6 class="user-component__subtitle">haeryun@kakao.com</h6>
+                </div>
+              </div>
+              <div class="user-component__column--btn">
+                <div class="user-component__column--my">
+                    MY
+                </div>
+                <div class="user-component__column--own">
+                    <i class="far fa-smile-wink smile-wink__column"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="main-border">
+                <div class="border-component">
+                    <div class="border-component__column">
+                        <span><i class="fas fa-comment fa-xs"></i></span>
+                        <span class="border-component--pay">pay</span>
+                        <span class="border-component--meney">2,369원</span>
                     </div>
                 </div>
-                <div class="more-column__btn">
-                    <div class="user-component__more-column__btn--one">MY</div>
-                    <div class="user-component__more-column__btn--one">+25</div>
-                </div>
+               
             </div>
-        </main>
 
-        <div class="more-display-link more-display-link--border">
-            <div class="more-display-link__column">
-                <i class="fas fa-comment fa-xs more-display-link__column--btn--btn"></i>
-                <span class="more-display-link__column--btn">pay</span>
-                <span class="more-display-link__column--btn more-display-link__column--btn__font">17,369원</span>
+            <div class="icon-row">
+              <div class="icon-row__icon">
+                <i class="far fa-envelope"></i>
+                <span>메일</span>
+              </div>
+              <div class="icon-row__icon">
+                <i class="fas fa-shopping-basket"></i>
+                <span>쇼핑하기</span>
+              </div>
+              <div class="icon-row__icon">
+                <i class="fas fa-cut"></i>
+                <span>헤어샵</span>
+              </div>
+              <div class="icon-row__icon">
+                <i class="fas fa-qrcode"></i>
+                <span>전체서비스</span>
+              </div>
             </div>
-            <div class="more-display-link__column--right">
-                <span
-                    class="more-display-link__column--btn--right more-display-link__column--btn--right__font">송금</span>
-                <span
-                    class="more-display-link__column--btn--right more-display-link__column--btn--right__font">결제</span>
-                <span
-                    class="more-display-link__column--btn--right more-display-link__column--btn--right__font">자산</span>
-            </div>
-        </div>
-
-        <main class="more-screen">
-            <div class="more-component">
-                <div class="more-component__column">
-                    <i class="far fa-envelope fa-2x"></i>
-                    <span>메일</span>
-                </div>
-                <div class="more-component__column">
-                    <i class="far fa-calendar-check fa-2x"></i>
-                    <span>캘린더</span>
-                </div>
-                <div class="more-component__column">
-                    <i class="fas fa-gift fa-2x"></i>
-                    <span>선물하기</span>
-                </div>
-                <div class="more-component__column">
-                    <i class="fas fa-gamepad fa-2x"></i>
-                    <span>게임</span>
-                </div>
-            </div>
-        </main>
+          </main>
 
         <!-- nav>ul>li*4>a 유용한 단축키-->
         <nav class="nav">

@@ -14,3 +14,35 @@
 .screen-header__icons span{
     margin-left: 15px;
 }
+
+.screen-header__icons {
+    margin-left: 25px;
+}
+
+@keyframes rotateCog {
+    0% {
+        transform: none;
+        color: black;
+    }
+    25% {
+        transform: rotateZ(720deg);
+        color: tomato;
+    }
+    50% {
+        transform: rotateZ(720deg);
+        color: tomato;
+    }
+    75% {
+        transform: rotateZ(720deg);
+        color: tomato;
+    }
+    100% {
+        color: black;
+    }
+
+}
+
+.screen-header__icons .fa-cog {
+    animation: rotateCog 4s ease-in-out infinite;
+    will-change: transform;
+}

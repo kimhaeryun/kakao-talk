@@ -8,6 +8,8 @@
     border-top: 1px solid rgba(121, 121, 121, 0.3);
   }
 
+
+
 .nav__list{
     display: flex;
     position: relative;
@@ -18,4 +20,47 @@
     position: absolute;
     left: 107px;
     bottom: 10px;
+    animation: notificationAnimation 2s ease-in-out infinite;
+}
+
+@keyframes notificationAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-7px) rotateY(360deg);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes appBtnAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.nav__list {
+    animation: appBtnAnimation 1s ease-in-out;
+}
+
+.nav__btn {
+    transform: translateY(50px);
+    opacity: 0;
+    animation: appBtnAnimation 0.5s ease-in-out forwards;
+}
+
+.nav__btn:nth-child(2) {
+    animation-delay: 0.3s;
+}
+.nav__btn:nth-child(3) {
+    animation-delay: 0.6s;
+}
+.nav__btn:last-child {
+    animation-delay: 0.9s;
 }

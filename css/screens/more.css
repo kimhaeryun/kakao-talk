@@ -1,97 +1,116 @@
-.user-component__avatar {
-    margin-bottom: 10px;
-}
-
-.user-component__more-column__btn--one {
-    color: rgba(0, 0, 0, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    padding: 2px 6px;
-    text-align: center;
-    margin-bottom: 5px;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.user-component__more-column__btn--one:hover {
-    color: #ffffff;
-    background-color: #fae100;
-    border-color: rgba(0, 0, 0, 0.1);
-}
-
-.more-display-link {
+.more-screen .icon-row {
+    margin-top: 35px;
+  }
+  
+  .more-suggestions {
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+  }
+  
+  .more-suggestions__title {
+    margin-bottom: 30px;
+  }
+  
+  .more-suggestions__icons {
     display: flex;
-    color: rgba(0, 0, 0, 0.6);
-    padding: 13px 10px;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-}
-
-.more-display-link__column {
-    padding: 5px 7px;
-    border-radius: 15px;
-    background-color: #ffffff;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.more-display-link__column:hover {
+  }
+  
+  .more-suggestions__icon {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .more-suggestions__icon-image {
+    width: 60px;
+    height: 60px;
     background-color: var(--yellow);
-    border-color: var(--yellow);
-    color: white;
-}
-
-.more-display-link__column--btn,
-.more-display-link__column--btn--btn {
-    color: black;
-}
-
-.more-display-link__column--btn__font {
-    font-size: 13px;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.8);
-}
-
-.more-display-link__column--right {
-    margin-left: 35%;
-    padding: 5px 25px;
-    border-radius: 13px;
-    background-color: #ffffff;
-}
-
-.more-display-link__column--btn--right {
-    font-size: 13px;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.8);
-}
-
-.more-display-link__column--btn--right__font {
-    transition: background-color 0.3s ease-in-out;
-}
-
-.more-display-link__column--btn--right__font:hover {
-    color: #ffffff;
-    background-color: var(--yellow);
-    padding: 2px 5px;
     border-radius: 10px;
-    border-color: var(--yellow);
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .more-suggestions__icon-image i {
+    font-size: 32px;
+    color: white;
+  }
+
+  .user-component__column--btn {
+      display: flex;
+      font-size: 15px;
+      font-weight: 600;
+  }
+
+  .user-component__column--my {
+      margin-right: 5px;
+      font-size: 15px;
+  }
+
+  .user-component__column--my,
+  .user-component__column--own {
+      padding: 8px 8px;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      border-radius: 15px;
+      border-color: rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease-in-out;
+  }
+
+  .user-component__column--my:hover,
+  .user-component__column--own:hover {
+      border-color: var(--yellow);
+      background-color: var(--yellow);
+      color: white;
+  }
 
 
-.user-component__more-column__btn--one {
-    color: rgba(0, 0, 0, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    padding: 2px 6px;
-    text-align: center;
-    margin-bottom: 5px;
-    transition: background-color 0.3s ease-in-out;
-}
+  .cog-yellow {
+      -webkit-animation: cog-yellow 1.0s linear infinite;
+  }
 
-.user-component__more-column__btn--one:hover {
-    color: #ffffff;
-    background-color: #fae100;
-    border-color: rgba(0, 0, 0, 0.1);
-}
+  @keyframes cog-yellow {
+      0% { color: #222; }
+      50% { color: #f7fe2e52; }
+      100% { color: #F7FE2E; }
+      from { color: #F7FE2E; }
+      to { color: #222; }
+  }
 
-.cog-yellow {
-    color: #fae100;
-}
+  .main-border {
+      padding: 20px 20px;
+      margin-top: 15px;
+      background-color: rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+  }
+
+  .border-component__column {
+      display: flex;
+      padding: 10px;
+      background-color: white;
+      border-radius: 25px;
+      width: 35%;
+      justify-content: center;
+      text-align: center;
+      transition: background-color 0.3s ease-in-out;
+      transition: color 0.2s ease-in-out;
+  }
+
+  .border-component__column:hover {
+      background-color: var(--yellow);
+      color: white;
+  }
+
+.border-component--pay {
+      font-size: 15px;
+      font-weight: 600;
+      margin-right: 5px;
+  }
+
+  .border-component--meney {
+    margin-top: 1.5px;
+    font-size: 15px;
+    font-weight: 600;
+  }

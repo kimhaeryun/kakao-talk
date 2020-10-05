@@ -211,3 +211,27 @@
 .main-find-component__column--img {
     position: relative;
 }
+
+.main-find-component__column--img{
+    margin-left: 3px;
+}
+
+@keyframes heartBeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: tomato;
+        transform: scale(2);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
+.main-find-component__column--img i{
+    will-change: transform;
+    animation: heartBeat 1s ease-in-out infinite;
+}
