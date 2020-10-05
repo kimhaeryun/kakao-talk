@@ -36,11 +36,12 @@
     width: 60px;
     height: 60px;
     border-radius: 25px;
+    margin-bottom: 5px;
     margin-right: 5px;
 }
 
 .find-component__text {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .find-component__title {
