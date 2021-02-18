@@ -33,12 +33,14 @@ body {
 
 .box{
     box-shadow: 0 0 5px rgba(0,0,0,0.4);
-	overflow: hidden;
+    overflow: hidden;
     position: absolute;
 	height: 730px;
     width: 415px;
-    left: 35%;
     top: 5%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-screen {
